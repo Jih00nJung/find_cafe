@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<typeAliases>
+		<typeAlias alias="member" type="com.myhome.project.model.Member" />
+		<typeAlias alias="cafe" type="com.myhome.project.model.Cafe" />
+		<typeAlias alias="category" type="com.myhome.project.model.Category" />
+		<typeAlias alias="hashtag" type="com.myhome.project.model.Hashtag" />
+		<typeAlias alias="inquiry" type="com.myhome.project.model.Inquiry" />
+		<typeAlias alias="liked" type="com.myhome.project.model.Liked" />
+		<typeAlias alias="recommend" type="com.myhome.project.model.Recommend" />
+		<typeAlias alias="reply" type="com.myhome.project.model.Reply" />
+		<typeAlias alias="response" type="com.myhome.project.model.Response" />
+		<typeAlias alias="review" type="com.myhome.project.model.Review" />
+	</typeAliases>	
+	
+</configuration>
